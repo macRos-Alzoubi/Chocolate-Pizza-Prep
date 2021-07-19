@@ -1,0 +1,257 @@
+*::after,
+*::before,
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0;
+    clear: both;
+}
+
+.logo{
+    float: left;
+}
+
+.logo__img{
+    float: left;
+   height: 4.5rem;
+   margin-right: 0.7rem;
+
+}
+
+.logo__text,
+.links{
+    float: right;
+}
+
+.logo__text h1{
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+}
+
+.logo__text p{
+    text-transform: uppercase;
+}
+
+.links{
+    margin-top: 0.7rem;
+}
+
+.list-items{
+    list-style: none;
+}
+
+.list-item{
+    display: inline-block;
+}
+
+.list-item:nth-of-type(6n){
+    margin-right: 0.7rem;
+}
+
+main::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1rem;
+    margin-top: 2rem;
+    background: url('assets/hr-img.png') repeat;
+}
+
+.main-section{
+    margin-top: 3rem;
+}
+
+.post-heading-container::after{
+    content: '';
+    display: block;
+    height: 0;
+    width: 100%;
+    clear: both;
+}
+
+.post-heading{
+    float: left
+}
+
+.post-heading h2{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.post-heading p{
+    text-transform: uppercase;
+    color: #acacac;
+    font-size: 0.8rem;
+}
+
+.print{
+    float: right;
+    margin-top: 2rem;
+}
+
+.print img,
+.print p{
+    display: inline-block;
+}
+
+.print img{
+    width: 1rem;
+}
+
+.print p{
+    text-transform: uppercase;
+    color: #acacac;
+}
+
+.Chocolate-pizza-img{
+   margin-top: 2rem;
+}
+
+.Chocolate-pizza-img img{
+    width: 100%;
+}
+
+.main-section > p{
+    font-size: 1.1rem;
+    color: #747474;
+    margin-bottom: 1.2rem;
+    line-height: 1.2;
+    text-indent: 1.5rem;
+}
+
+.main-section > p:first-of-type{
+    margin-top: 3rem;
+}
+
+.main-section > p:last-of-type{
+    margin-bottom: 3rem;
+}
+
+
+.recipe{
+    position: relative;
+    height: 30rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.recipe > img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.left-list,
+.right-list{
+    font-size: 1.6rem;
+    color: #727561;
+    list-style: none;
+    position: absolute;
+
+}
+
+.left-list .list-item,
+.right-list .list-item{
+    display: block;
+    margin-bottom: 0.6rem;
+}
+
+.list-item--line-through{
+    text-decoration: line-through;
+}
+
+.left-list{
+    left: 5rem;
+    top: 1.35rem;
+}
+
+.right-list{
+    right: 2rem;
+    top: 1.35rem;
+}
+
+.right-list .list-item:last-of-type{
+    width: 25rem;
+    line-height: 1.7;
+}
+
+.section-testimonial::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1rem;
+    margin: 2rem 0;
+    background: url('assets/hr-img.png') repeat;
+}
+
+.testimonial::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0;
+    clear: both;
+}
+
+.testimonial__text,
+.testimonial__img,
+.testimonial  button{
+    float: left;
+    margin-right: 1rem;
+}
+
+
+.testimonial__img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.testimonial__text h3{
+    font-size: 1.25rem;
+    text-transform: capitalize;
+}
+
+.testimonial__text p{
+    font-size: 1.1rem;
+    color: #505050;
+}
+
+.testimonial button{
+    float: right;
+    margin-right: 0;
+    background-color: #bd5728;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    border: none;
+    width: 13rem;
+    padding: 1rem 1.2rem;
+}
+
+footer{
+    position: relative;
+    margin-top: 3rem;
+    border-top: 1px solid #dfdfdf;
+    color: #979797;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer p{
+    width: 19rem;
+    margin: 0 auto;
+}
+
+ .logo-small{
+     position: absolute;
+     left: 50%;
+     top: 0;
+     transform: translate(-50%, -50%);
+ }
